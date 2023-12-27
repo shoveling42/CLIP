@@ -4,35 +4,36 @@
 
 This repository is for COSE474 final project. The topic will be about finetuning and zero-shot classification.
 
-# Experiments
+## Prerequisites
 
-## Dataset
+I recommend you to use Colab Pro V100 GPU or an equivalent GPU while fine-tuning CLIP.
 
-Indo fashion dataset
-
-## Hyperparameter's Configuration
-
-TBD
-
-## Computing Resources & Softwares
+Pytorch
 
 Colab Pro V100 GPU
 
 Wandb
 
-# Comparision
+# Experiments
+
+## Dataset
+
+In this project, I used [Indo fashion dataset](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset) because of storage issue.
+
+|Training|Validation|Test|
+|------|---|---|
+|91K|7.5K|7.5K|
+
+## Hyperparameter's Configuration
+
+TBD
+
+# Result
 
 ## Quantative Results
 
 ## Qualitative Results
 
-# Limitations
-
-Because of storage issue, I had no choice but to utilize Indo fashion dataset rather than Korean.
-
-Therefore, I cannot fully interpret qualitative results of zero-shot classification.
-
 # References
-Dataset: [Indo fashion dataset](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset)
 
 Inference code: [CLIP](https://github.com/openai/CLIP)
