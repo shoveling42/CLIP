@@ -2,31 +2,41 @@
 
 # Introduction
 
-This repository is for COSE474 final project. The topic will be about finetuning and zero-shot classification.
+This repository is about finetuning CLIP and zero-shot classification via pre-trained CLIP.
 
 ## Prerequisites
 
-I recommend you to use Colab Pro V100 GPU or an equivalent GPU while fine-tuning CLIP.
+Before you begin, ensure you have met the following requirements:
 
-Pytorch
-
-Colab Pro V100 GPU
-
-Wandb
+* Python 3.6 or later
+* PyTorch 1.7.1 or later
+* transformers and clip libraries installed
+* Colab Pro V100 GPU or an equivalent GPU while fine-tuning CLIP
+* [Wandb](https://wandb.ai/site)(NOT NECESSARY, it is used to track losses of text and image.)
 
 # Experiments
 
 ## Dataset
 
-In this project, I used [Indo fashion dataset](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset) because of storage issue.
+In this project, I had no choice but to use [Indo fashion dataset](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset) because of storage issue.
 
-|Training|Validation|Test|
-|------|---|---|
-|91K|7.5K|7.5K|
+The dataset is split into 3 section, that is, training, validation, and test. The total number of categories is 15. Each class is one kind of indo fashion categories.
+
+|Training|Validation|Test|Total|
+|---|---|---|----|
+|91K|7.5K|7.5K|106K|
 
 ## Hyperparameter's Configuration
 
-TBD
+|Epochs|Batch sizes|Optimizer|Loss Function|
+|---|---|---|----|
+|30|256|Adam|Cross Entropy|
+
+The hyperparameters used in Adam optimizer are below:
+
+|learning rate|$B_1|$B_2|Weight Decay|
+|---|---|---|----|
+|5e-5|0.9|0.98|0.2|
 
 # Result
 
