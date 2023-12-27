@@ -4,7 +4,7 @@
 
 This repository is about finetuning CLIP and zero-shot classification via pre-trained CLIP.
 
-## Prerequisites
+# Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -42,6 +42,6 @@ The hyperparameters used in Adam optimizer are below:
 
 ![Quantative Result](https://github.com/shoveling42/CLIP/assets/65910972/5fbb747e-5c15-4d4e-8cde-286247f07a94)
 
-# References
+# Reference
 
 Inference code: [CLIP](https://github.com/openai/CLIP)
