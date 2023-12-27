@@ -23,19 +23,19 @@ In this project, you can download [Indo fashion dataset](https://www.kaggle.com/
 The dataset is split into 3 section, that is, training, validation, and test. The total number of categories is 15. Each class is one kind of indo fashion categories.
 
 |Training|Validation|Test|Total|
-|---|---|---|----|
+|:---:|:---:|:---:|:----:|
 |91K|7.5K|7.5K|106K|
 
 ## Hyperparameter's Configuration
 
 |Epochs|Batch sizes|Optimizer|Loss Function|
-|---|---|---|----|
+|:---:|:---:|:---:|:----:|
 |30|256|Adam|Cross Entropy|
 
 The hyperparameters used in Adam optimizer are below:
 
 |learning rate|$B_1|$B_2|Weight Decay|
-|---|---|---|----|
+|:---:|:---:|:---:|:----:|
 |5e-5|0.9|0.98|0.2|
 
 # Result
