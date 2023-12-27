@@ -18,7 +18,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Dataset
 
-In this project, I had no choice but to use [Indo fashion dataset](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset) because of storage issue.
+In this project, you can download [Indo fashion dataset](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset).
 
 The dataset is split into 3 section, that is, training, validation, and test. The total number of categories is 15. Each class is one kind of indo fashion categories.
 
@@ -40,9 +40,7 @@ The hyperparameters used in Adam optimizer are below:
 
 # Result
 
-## Quantative Results
-
-## Qualitative Results
+![Quantative Result](https://github.com/shoveling42/CLIP/assets/65910972/5fbb747e-5c15-4d4e-8cde-286247f07a94)
 
 # References
 
