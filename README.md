@@ -45,3 +45,5 @@ The hyperparameters used in Adam optimizer are below:
 # Reference
 
 Inference code: [CLIP](https://github.com/openai/CLIP)
+
+Baseline Training code: [#83](https://github.com/openai/CLIP/issues/83)
